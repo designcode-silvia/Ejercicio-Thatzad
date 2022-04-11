@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+.contenedor-principal{
+    padding-bottom: 50px;
+    background-image: url(../img/BACKGROUND1.png);
+}
+
+.container-shadow{
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.35);
+    background-color: white;
+    padding: 0 30px;
+}
+
+.second-image{
+    width: 100%;
+}
+
+p.title{
+    font-family: 'Lato-Bold';
+    font-size: 30px;
+    margin-top: 62px;
+    margin-bottom: 64px;
+    color: #292929;
+    line-height: 36px;
+    text-align: center;
+}
+
+.text-image-first{
+    margin-bottom: 55px;
+}
+
+.text-image-second{
+    margin-bottom: 44px;
+}
+
+.contenido-final{
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+
+.w-30 {
+    width: 30%!important;
+}
+
+.w-24 {
+    width: 24%!important;
+}
+
+.w-38 {
+    width: 38%!important;
+}
+
+.w-70 {
+    width: 70%!important;
+}
+
+@media (min-width: 768px) {
+    .w-md-30 {
+       width:30% !important;
+    }
+
+    .w-md-50 {
+        width:50% !important;
+    }
+
+    .w-md-70 {
+        width:70% !important;
+     }
+  }
